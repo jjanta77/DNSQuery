@@ -139,6 +139,7 @@ namespace DNSQueryUI
             this.metroButton31 = new MetroFramework.Controls.MetroButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.metroButton41 = new MetroFramework.Controls.MetroButton();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -877,6 +878,7 @@ namespace DNSQueryUI
             // 
             // metroTabPage1
             // 
+            this.metroTabPage1.Controls.Add(this.metroButton41);
             this.metroTabPage1.Controls.Add(this.logviewer);
             this.metroTabPage1.Controls.Add(this.metroButton40);
             this.metroTabPage1.Controls.Add(this.metroButton39);
@@ -1510,6 +1512,16 @@ namespace DNSQueryUI
             // 
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
+            // metroButton41
+            // 
+            this.metroButton41.Location = new System.Drawing.Point(4, 493);
+            this.metroButton41.Name = "metroButton41";
+            this.metroButton41.Size = new System.Drawing.Size(75, 23);
+            this.metroButton41.TabIndex = 77;
+            this.metroButton41.Text = "metroButton41";
+            this.metroButton41.UseSelectable = true;
+            this.metroButton41.Click += new System.EventHandler(this.metroButton41_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -1644,6 +1656,7 @@ namespace DNSQueryUI
         private MetroFramework.Controls.MetroButton metroButton40;
         private MetroFramework.Controls.MetroButton metroButton39;
         private MetroFramework.Controls.MetroButton logviewer;
+        private MetroFramework.Controls.MetroButton metroButton41;
     }
 }
 

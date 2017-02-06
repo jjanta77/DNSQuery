@@ -18,9 +18,9 @@ using System.Threading;
 using System.Diagnostics;
 using Microsoft.Win32;
 using System.Timers;
-using DnDns.Enums;
-using DnDns.Query;
-using DnDns.Records;
+//using DnDns.Enums;
+//using DnDns.Query;
+//using DnDns.Records;
 
 namespace DNSQueryUI
 {
@@ -33,7 +33,7 @@ namespace DNSQueryUI
             InitializeComponent();
         }
 
-        bool sCheck = false;
+           bool sCheck = false;
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -102,6 +102,7 @@ namespace DNSQueryUI
                 //Console.WriteLine(ex.Message);
                 MessageBox.Show("아래 내용을 확인 후 다시 시도해보세요" + Environment.NewLine + "1. 도메인 주소를 다시 확인 해보세요. (DNS쿼리의 도메인 주소가 잘못되었습니다.)" + Environment.NewLine + "2. 네트워크 접속을 확인해보세요. (만료 기간이 지났거나,네크워크 접속이 끊겼습니다.)", "후킹 IP 에러", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            process.Dispose();
         }
 
         //ipconfig /flushdns 와 라벨 내용 삭제
@@ -118,7 +119,7 @@ namespace DNSQueryUI
 
             metroLabel1.Text = "";
             ServicePointManager.DnsRefreshTimeout = 0;
-
+            
         }
 
         // DNS 쿼리 무한 반복 - 10초 딜레이
@@ -204,6 +205,7 @@ namespace DNSQueryUI
             {
                 timer1.Enabled = true;
             }
+            
         }
           
 
@@ -237,6 +239,7 @@ namespace DNSQueryUI
                 //Console.WriteLine(ex.Message);
                 MessageBox.Show("아래 내용을 확인 후 다시 시도해보세요" + Environment.NewLine + "1. 도메인 주소를 다시 확인 해보세요. (DNS쿼리의 도메인 주소가 잘못되었습니다.)" + Environment.NewLine + "2. 네트워크 접속을 확인해보세요. (만료 기간이 지났거나,네크워크 접속이 끊겼습니다.)", "후킹 IP 에러", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
         }
 
 
@@ -253,6 +256,7 @@ namespace DNSQueryUI
 
             metroLabel4.Text = "";
             ServicePointManager.DnsRefreshTimeout = 0;
+            
         }
 
         private void metroButton4_Click(object sender, EventArgs e)
@@ -379,6 +383,7 @@ namespace DNSQueryUI
             {
                 timer2.Enabled = true;
             }
+            
         }
         
         private void metroButton10_Click(object sender, EventArgs e)
@@ -460,6 +465,7 @@ namespace DNSQueryUI
             }
             */
         }
+        
         
         private void dnsqueryagingall()
         {
@@ -879,7 +885,8 @@ namespace DNSQueryUI
             {
                 timer3.Enabled = true;
             }
-        }
+            
+        } 
         
 
         private void metroButton11_Click(object sender, EventArgs e)
@@ -984,6 +991,7 @@ namespace DNSQueryUI
             {
                 MessageBox.Show("인터넷 익스플로러 브라우저가 없습니다." + Environment.NewLine + "설정탭으로 이동하셔서 파이어폭스 브라우저를 설치 하세요", "브라우저 설치 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            process.Close();
         }
 
         //DNS 쿼리 및 파폭으로 콤보 박스의 URL로 이동
@@ -1035,6 +1043,7 @@ namespace DNSQueryUI
                 //Console.WriteLine(ex.Message);
                 MessageBox.Show("파이어폭스 브라우저가 없습니다." + Environment.NewLine + "설정탭으로 이동하셔서 파이어폭스 브라우저를 설치 하세요", "브라우저 설치 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            process.Close();
         }
 
         //크롬으로 콤보박스에서 선택한 도메인으로 이동되는 동작, 크롬 없을 시 
@@ -1086,6 +1095,7 @@ namespace DNSQueryUI
                 //Console.WriteLine(ex.Message);
                 MessageBox.Show("크롬 브라우저가 없습니다." + Environment.NewLine + "설정탭으로 이동하셔서 파이어폭스 브라우저를 설치 하세요", "브라우저 설치 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            process.Close();
 
         }
 
@@ -1958,16 +1968,19 @@ namespace DNSQueryUI
         {
             //string folderpath64  = @"C:\Program Files (x86)\Sresolver\log\";
             //string folderpath32 = @"C:\Program Files\Sresolver\log\";
-;
 
-
-            
+                        
             DirectoryInfo folderpath64 = new DirectoryInfo("C:\\Program Files (x86)\\sresolver\\log\\");
             DirectoryInfo folderpath32 = new DirectoryInfo("C:\\Program Files\\sresolver\\log\\");
 
+            //FileInfo filename = new FileInfo("DSRMService_"+DateTime.Today.ToString("yyyy_MM_dd")+".log");
+
+            //StreamReader sr64 = new StreamReader("C:\\Program Files (x86)\\sresolver\\log\\" + filename);
+            
+
             string filename = "DSRMService_"+DateTime.Today.ToString("yyyy_MM_dd")+".log";
                         
-            //Process.Start(folderpath64+filename);
+            
 
             try
             {
@@ -1984,6 +1997,14 @@ namespace DNSQueryUI
             {
                 MessageBox.Show("로그파일이 존재 하지 않습니다.", "로그파일 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void metroButton41_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+
+            form2.ShowDialog();
+
         }
     }
  }

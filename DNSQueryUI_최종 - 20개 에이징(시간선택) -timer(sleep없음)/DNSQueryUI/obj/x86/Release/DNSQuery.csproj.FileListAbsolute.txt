@@ -54,3 +54,27 @@ C:\Users\vm10\Documents\Visual Studio 2015\Projects\DNSQueryUI_최종 - 20개 �
 C:\Users\vm10\Documents\Visual Studio 2015\Projects\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음)\DNSQueryUI\obj\x86\Release\dns.exe.manifest
 C:\Users\vm10\Documents\Visual Studio 2015\Projects\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음)\DNSQueryUI\obj\x86\Release\dns.application
 C:\Users\vm10\Documents\Visual Studio 2015\Projects\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음)\DNSQueryUI\obj\x86\Release\dns.exe
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\dns.exe.config
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\dns.exe
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\dns.pdb
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\DNSQuery.csprojResolveAssemblyReference.cache
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\DNSQueryUI.Form1.resources
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\DNSQueryUI.Form2.resources
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\DNSQueryUI.Properties.Resources.resources
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\DNSQuery.csproj.GenerateResource.Cache
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\dns.exe.manifest
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\dns.application
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\dns.exe
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\dns.pdb
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\RelevantCodes.ExtentReports.dll
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\Selenium.WebDriverBackedSelenium.dll
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\ThoughtWorks.Selenium.Core.dll
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\WebDriver.dll
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\WebDriver.Support.dll
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\Selenium.WebDriverBackedSelenium.xml
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\ThoughtWorks.Selenium.Core.xml
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\WebDriver.xml
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\bin\x86\Release\WebDriver.Support.xml
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\dns.TrustInfo.xml
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\dns.exe.manifest
+D:\Programing\C#\DNSQueryUI - 20170203_로그보기\DNSQueryUI_최종 - 20개 에이징(시간선택) -timer(sleep없음) - 20170203\DNSQueryUI\obj\x86\Release\dns.application
