@@ -91,7 +91,7 @@ namespace DNSQueryUI
             this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
-            this.logviewer = new MetroFramework.Controls.MetroButton();
+            this.metroButton41 = new MetroFramework.Controls.MetroButton();
             this.metroButton40 = new MetroFramework.Controls.MetroButton();
             this.metroButton39 = new MetroFramework.Controls.MetroButton();
             this.metroButton38 = new MetroFramework.Controls.MetroButton();
@@ -139,7 +139,6 @@ namespace DNSQueryUI
             this.metroButton31 = new MetroFramework.Controls.MetroButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
-            this.metroButton41 = new MetroFramework.Controls.MetroButton();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -817,8 +816,7 @@ namespace DNSQueryUI
             // metroTextBox27
             // 
             this.metroTextBox27.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox27.Lines = new string[] {
-        "www.nginx-161206.com"};
+            this.metroTextBox27.Lines = new string[0];
             this.metroTextBox27.Location = new System.Drawing.Point(0, 56);
             this.metroTextBox27.MaxLength = 32767;
             this.metroTextBox27.Name = "metroTextBox27";
@@ -827,7 +825,6 @@ namespace DNSQueryUI
             this.metroTextBox27.SelectedText = "";
             this.metroTextBox27.Size = new System.Drawing.Size(234, 30);
             this.metroTextBox27.TabIndex = 54;
-            this.metroTextBox27.Text = "www.nginx-161206.com";
             this.metroTextBox27.UseSelectable = true;
             // 
             // metroTextBox28
@@ -854,6 +851,8 @@ namespace DNSQueryUI
             this.metroComboBox1.FormattingEnabled = true;
             this.metroComboBox1.ItemHeight = 23;
             this.metroComboBox1.Items.AddRange(new object[] {
+            "",
+            "www.nginx-161206.com",
             "www.capdns.com/test.asp",
             "edge.uxproxy.com",
             "www.capdns.com"});
@@ -879,7 +878,6 @@ namespace DNSQueryUI
             // metroTabPage1
             // 
             this.metroTabPage1.Controls.Add(this.metroButton41);
-            this.metroTabPage1.Controls.Add(this.logviewer);
             this.metroTabPage1.Controls.Add(this.metroButton40);
             this.metroTabPage1.Controls.Add(this.metroButton39);
             this.metroTabPage1.Controls.Add(this.metroButton38);
@@ -913,16 +911,15 @@ namespace DNSQueryUI
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.VerticalScrollbarSize = 10;
             // 
-            // logviewer
+            // metroButton41
             // 
-            this.logviewer.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.logviewer.Location = new System.Drawing.Point(363, 434);
-            this.logviewer.Name = "logviewer";
-            this.logviewer.Size = new System.Drawing.Size(115, 30);
-            this.logviewer.TabIndex = 76;
-            this.logviewer.Text = "로그 보기";
-            this.logviewer.UseSelectable = true;
-            this.logviewer.Click += new System.EventHandler(this.logviewer_Click);
+            this.metroButton41.Location = new System.Drawing.Point(363, 434);
+            this.metroButton41.Name = "metroButton41";
+            this.metroButton41.Size = new System.Drawing.Size(112, 30);
+            this.metroButton41.TabIndex = 77;
+            this.metroButton41.Text = "로그보기";
+            this.metroButton41.UseSelectable = true;
+            this.metroButton41.Click += new System.EventHandler(this.metroButton41_Click);
             // 
             // metroButton40
             // 
@@ -1512,16 +1509,6 @@ namespace DNSQueryUI
             // 
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
-            // metroButton41
-            // 
-            this.metroButton41.Location = new System.Drawing.Point(4, 493);
-            this.metroButton41.Name = "metroButton41";
-            this.metroButton41.Size = new System.Drawing.Size(75, 23);
-            this.metroButton41.TabIndex = 77;
-            this.metroButton41.Text = "metroButton41";
-            this.metroButton41.UseSelectable = true;
-            this.metroButton41.Click += new System.EventHandler(this.metroButton41_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -1655,7 +1642,6 @@ namespace DNSQueryUI
         private MetroFramework.Controls.MetroButton metroButton37;
         private MetroFramework.Controls.MetroButton metroButton40;
         private MetroFramework.Controls.MetroButton metroButton39;
-        private MetroFramework.Controls.MetroButton logviewer;
         private MetroFramework.Controls.MetroButton metroButton41;
     }
 }

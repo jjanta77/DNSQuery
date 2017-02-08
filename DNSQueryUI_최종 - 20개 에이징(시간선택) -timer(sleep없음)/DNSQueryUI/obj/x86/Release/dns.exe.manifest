@@ -42,14 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dns.exe" size="60344">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DnDns.dll" size="33792">
+      <assemblyIdentity name="DnDns" version="1.0.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wyDIJcE7H55qCbtaTYAN9AsEXB0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dns.exe" size="61368">
       <assemblyIdentity name="dns" version="1.2.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pc3jdBnV0gidC3/XyWgEZJIapcM=</dsig:DigestValue>
+        <dsig:DigestValue>Slhz+Q4S4IZYnjs/mMUcvZ8tzrs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -959,7 +959,7 @@ namespace DNSQueryUI
             {
 
                 IPHostEntry host;
-                host = Dns.GetHostEntry(metroTextBox27.Text);
+                host = Dns.GetHostEntry(metroComboBox1.Text);
                 //IPHostEntry ipentry = Dns.Resolve(metroTextBox1.Text);
                 foreach (IPAddress ip in host.AddressList)
                 {
@@ -981,7 +981,7 @@ namespace DNSQueryUI
                // startInfo.FileName = "cmd.exe";
                 //startInfo.Arguments = "/C ipconfig /flushdns";
                 startInfo.FileName = "iexplore.exe";
-                startInfo.Arguments = (metroTextBox27.Text);
+                startInfo.Arguments = (metroComboBox1.Text);
                 //startInfo.Arguments = (metroTextBox28.Text);
 
                 process.StartInfo = startInfo;
@@ -1011,7 +1011,7 @@ namespace DNSQueryUI
             {
 
                 IPHostEntry host;
-                host = Dns.GetHostEntry(metroTextBox27.Text);
+                host = Dns.GetHostEntry(metroComboBox1.Text);
                 //IPHostEntry ipentry = Dns.Resolve(metroTextBox1.Text);
                 foreach (IPAddress ip in host.AddressList)
                 {
@@ -1033,7 +1033,7 @@ namespace DNSQueryUI
                 //startInfo.FileName = "cmd.exe";
                 //startInfo.Arguments = "/C ipconfig /flushdns";
                 startInfo.FileName = "firefox.exe";
-                startInfo.Arguments = (metroTextBox27.Text);
+                startInfo.Arguments = (metroComboBox1.Text);
 
                 process.StartInfo = startInfo;
                 process.Start();
@@ -1063,7 +1063,7 @@ namespace DNSQueryUI
             {
 
                 IPHostEntry host;
-                host = Dns.GetHostEntry(metroTextBox27.Text);
+                host = Dns.GetHostEntry(metroComboBox1.Text);
                 //IPHostEntry ipentry = Dns.Resolve(metroTextBox1.Text);
                 foreach (IPAddress ip in host.AddressList)
                 {
@@ -1085,7 +1085,7 @@ namespace DNSQueryUI
                 //startInfo.FileName = "cmd.exe";
                 //startInfo.Arguments = "/C ipconfig /flushdns";
                 startInfo.FileName = "chrome.exe";
-                startInfo.Arguments = (metroTextBox27.Text);
+                startInfo.Arguments = (metroComboBox1.Text);
 
                 process.StartInfo = startInfo;
                 process.Start();
@@ -1964,7 +1964,7 @@ namespace DNSQueryUI
             process.Close();
         }
 
-        private void logviewer_Click(object sender, EventArgs e)
+        /* private void logviewer_Click(object sender, EventArgs e)
         {
             //string folderpath64  = @"C:\Program Files (x86)\Sresolver\log\";
             //string folderpath32 = @"C:\Program Files\Sresolver\log\";
@@ -1998,13 +1998,13 @@ namespace DNSQueryUI
                 MessageBox.Show("로그파일이 존재 하지 않습니다.", "로그파일 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
+        */
         private void metroButton41_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
 
-            form2.ShowDialog();
-
+            form2.Show();
+            
         }
     }
  }
